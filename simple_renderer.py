@@ -57,7 +57,7 @@ while True:
                     f.write(" -a ")
         
         f.close()
-        subprocess.call([r'render.bat'])
+        subprocess.Popen([r'render.bat'])
         window['-STATUS-'].update("FINISHED")
         
     if event in (None, 'Exit'):
