@@ -1,5 +1,5 @@
 # simple-renderer
-Simple Render Queue for Blender
+Simple Batch Rendering for Blender 
 
 ## Release
 
